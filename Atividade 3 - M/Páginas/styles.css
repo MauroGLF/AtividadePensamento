@@ -1,0 +1,22 @@
+body {
+    background-color: #f5ebe0;
+}
+
+li {
+    float: left;
+    list-style-type: none;
+    display: inline;
+}
+
+a {
+    color:maroon;
+    display: block;
+  padding: 8px;
+}
+
+p {
+    margin: 25px;
+}
+h2{
+    margin-left: 10px;
+}
