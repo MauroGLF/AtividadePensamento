@@ -1,0 +1,71 @@
+body {
+    background: #4f7302;
+    background: linear-gradient(0deg,#4f7302 1%, #84bf04 29%, #adfb05 70%);
+    background: -webkit-linear-gradient(0deg,#4f7302 1%, #84bf04 29%, #adfb05 70%);
+    background: -moz-linear-gradient(0deg,#4f7302 1%, #84bf04 29%, #adfb05 70%);
+}
+
+caption {
+    color: #386641;
+    font-size:xx-large;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+table, th, td {
+    border: 2px solid #354D27;
+    height: 50px;
+    border-collapse: collapse;
+    border-style: dashed;
+    box-shadow: 6px 7px 9px 2px rgba(56,56,56,0.34);
+-webkit-box-shadow: 6px 7px 9px 2px rgba(56,56,56,0.34);
+-moz-box-shadow: 6px 7px 9px 2px rgba(56,56,56,0.34);
+    margin-left: 18%;
+  }
+
+th {
+    background-color: #6a994e;
+}
+
+td {
+    background-color: #deb887;
+}
+
+/*even, odd, Xn*/
+tr:nth-child(odd) {
+    background-color: grey;
+}
+
+/*hover - deixa a página mais interativa*/
+tr, th:hover {
+    background-color: #7FC765;
+    color:rgb(0, 0, 0);
+}
+
+tr, td:hover {
+background-color: #B3956D; /*cor do fundo*/
+color: rgb(0, 0, 0); /* cor da letra*/
+text-shadow: 2px 2px 4px rgba(56,56,56,0.35);
+}
+
+iframe {
+    padding-left: 35%;
+}
+/*overflow - para esconder as coisas indesejadas*/
+*{ 
+    overflow: hidden;
+}
+
+/* Socorro, o que é div?*/
+
+/*(background-size: contain and cover*/
+
+/*border-style: solid, dotted, dashed, inset, outset
+    border-color, border-width, border-radius (cantos arredondados, 1/5 pixels recomendado; cima, esq. dir, baixo)*/
+
+/*box-shadow; px, px, px */
+
+/* Multimídea:
+   Audio
+   Video
+*/
